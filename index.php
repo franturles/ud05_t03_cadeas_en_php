@@ -9,7 +9,7 @@
         $primera="Primera linea de texto";
         $segunda="Segunda linea de texto";
         $tercera="Tercera linea de texto";
-        $resultado=$primera."<br/>".$segunda."<br/>".$tercera;
+        $resultado="{$primera}<br/>{$segunda}<br/>{$tercera}";
         echo $resultado;
         echo "<br/> El numero de caracteres de cadena resultante é: ".strlen($resultado);
         ?>
